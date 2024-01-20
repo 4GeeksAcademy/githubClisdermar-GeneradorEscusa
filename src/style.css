@@ -1,1 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#img {
+  width: 100wv;
+  height: 100hv;
+}
+#excuse-image {
+  width: 350px;
+  height: 100%;
+  object-fit: cover;
+}
