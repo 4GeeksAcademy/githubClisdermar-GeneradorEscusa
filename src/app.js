@@ -6,11 +6,8 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = () => {
-  //write your code here
-  document.body.addEventListener("click", () => {
-    document.querySelector("#excuse").innerHTML = generateExcusa();
-    document.querySelector("#excuse-image").src = getRandomImage();
-  });
+  document.querySelector("#excuse").innerHTML = generateExcusa();
+  document.querySelector("#excuse-image").src = getRandomImage();
 
   console.log("Hello Rigo from the console!");
 };
